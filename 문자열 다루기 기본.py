@@ -7,3 +7,9 @@ def solution(s):
             return False
     else:
         return False
+    
+    
+    
+# 다른풀이
+def solution(s):
+    return s.isdigit() and len(s) in (4, 6)
